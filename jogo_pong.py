@@ -189,12 +189,12 @@ class JogoPong:
                     self.adicionar_bola()
                     self.tempo_ultima_bola = time.time()
 
-                # Aumentar velocidade das bolas a cada 20 segundos
-                if time.time() - self.tempo_ultimo_aumento_velocidade >= 30:
+                # Aumentar velocidade das bolas a cada 30 segundos
+                if time.time() - self.tempo_ultimo_aumento_velocidade >= 50:
                     self.aumentar_velocidade()
                     self.tempo_ultimo_aumento_velocidade = time.time()
 
-                # Diminuir velocidade das bolas a cada 40 segundos
+                # Diminuir velocidade das bolas a cada 60 segundos
                 if time.time() - self.tempo_ultima_diminuicao_velocidade >= 60:
                     self.diminuir_velocidade()
                     self.tempo_ultima_diminuicao_velocidade = time.time()
