@@ -21,9 +21,7 @@ font_file = "font/PressStart2P-Regular.ttf"
 font = pygame.font.Font(font_file, 36)
 fonte_score = pygame.font.Font(font_file, 16)
 
-#mixer.music.load("audios/157_DO_FALLET.mp3")
-#mixer.music.play(-1)
-#mixer.music.set_volume(0.5)
+
 some = mixer.Sound("audios/Sound_A.wav")
 
 clock = pygame.time.Clock()
